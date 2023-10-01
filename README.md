@@ -18,6 +18,10 @@ This is a learning platform that allows users to manage sessions and lesson mate
 
 5. **Delete Sessions and Lesson Materials**: Users can delete both sessions and individual lesson materials.
 
+6. **Data Persistence**: Session and lesson material data is stored in localStorage, allowing users to resume their work even after closing the browser.
+
+   > **Note**: If you need to reset the data, you can do so through the developer tools on the "Application" tab. Clear the localStorage to start fresh.
+
 ## Design System - Atomic Design
 
 This project follows the principles of Atomic Design. Atomic Design breaks down components into smaller, reusable building blocks, which are then combined to create more complex components. The design system is organized into atoms, molecules, organisms, templates, and pages.
