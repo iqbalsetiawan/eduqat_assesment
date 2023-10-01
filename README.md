@@ -1,3 +1,5 @@
+# Learning Platform
+
 ## Overview
 
 This is a learning platform that allows users to manage sessions and lesson materials. It's built according to the Atomic Design principles and uses Styled Components for styling.
