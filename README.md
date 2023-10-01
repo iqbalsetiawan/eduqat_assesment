@@ -4,7 +4,7 @@
 
 This is a learning platform that allows users to manage sessions and lesson materials. It's built according to the Atomic Design principles and uses Styled Components for styling.
 
-<img width="1440" alt="Eduqat" src="https://github.com/iqbalsetiawan/eduqat_assesment/assets/52906490/6864020e-c122-49b1-bc03-82aa7358a625">
+<img width="1440" alt="Eduqat" src="https://github.com/iqbalsetiawan/eduqat_assesment/assets/52906490/cbdb0e08-c20d-4b72-a5cb-b1aa41016f97">
 
 ## Features
 
