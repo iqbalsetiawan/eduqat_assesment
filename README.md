@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a learning platform that allows users to manage sessions and lesson materials. It's built according to the Atomic Design principles and uses Styled Components for styling.
 
-## Available Scripts
+<img width="1440" alt="Eduqat" src="https://github.com/iqbalsetiawan/eduqat_assesment/assets/52906490/6864020e-c122-49b1-bc03-82aa7358a625">
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Add Session**: Users can add new learning sessions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Edit Session Name**: Users can edit the name of a session.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Drag and Drop Sessions**: Sessions can be rearranged via drag and drop, allowing users to change their order.
 
-### `npm test`
+4. **Add Lesson Material**: Users can add lesson materials to each session.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Delete Sessions and Lesson Materials**: Users can delete both sessions and individual lesson materials.
 
-### `npm run build`
+## Design System - Atomic Design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project follows the principles of Atomic Design. Atomic Design breaks down components into smaller, reusable building blocks, which are then combined to create more complex components. The design system is organized into atoms, molecules, organisms, templates, and pages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For more information on Atomic Design, refer to [Atomic Design by Brad Frost](https://atomicdesign.bradfrost.com/table-of-contents/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Styling - Styled Components
 
-### `npm run eject`
+Styled Components is used for styling in this project. Styled Components allows for the creation of dynamic styles using JavaScript and ensures component-level styling isolation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For more information on Styled Components, refer to [Styled Components Documentation](https://styled-components.com/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this project locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository from GitHub:
+   ```
+   git clone git@github.com:iqbalsetiawan/eduqat_assesment.git
+   ```
 
-## Learn More
+2. Navigate to the project folder:
+   ```
+   cd eduqat_assesment
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-### Code Splitting
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+1. **Adding a Session**: Click the "Add Session" button and enter the session details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. **Editing Session Name**: Click the edit icon next to the session name to make changes.
 
-### Making a Progressive Web App
+3. **Reordering Sessions**: Drag and drop sessions to change their order.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. **Adding Lesson Material**: Inside each session, click the "Add Lesson Material" button and provide the lesson material details.
 
-### Advanced Configuration
+5. **Deleting Sessions and Lesson Materials**: Click the delete icon next to a session or lesson material to remove it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Deployment
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project has been deployed to Vercel at https://eduqat.vercel.app for public access.
