@@ -70,4 +70,4 @@ To run this project locally, follow these steps:
 
 ## Deployment
 
-This project has been deployed to Vercel at https://eduqat.vercel.app for public access.
+This project has been deployed to Netlify at https://eduqat.netlify.app/ for public access.
